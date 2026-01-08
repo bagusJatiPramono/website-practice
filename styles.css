@@ -24,3 +24,26 @@ header {
     text-decoration: none;
     margin-left: 16px;
 }
+
+.menu-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer; /*change cursor shapes to hand clicking to add interactivity */
+    
+}
+
+.nav {
+    display: none;
+    flex-direction: column;
+    background-color: #34495e;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 12px;
+}
+
+.nav.active {
+    display: flex;
+}
