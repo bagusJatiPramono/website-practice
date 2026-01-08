@@ -60,5 +60,12 @@ header {
     color: white;
     text-decoration: none;
 }
+/* .page {
+    transition: transform 0.3s ease;
+}
+
+.page.shift {
+    transform: translateX(250px);
+} */
 
 
